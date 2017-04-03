@@ -1,0 +1,85 @@
+[
+    {
+        "key": "group_58e226609e55d",
+        "title": "Director",
+        "fields": [
+            {
+                "key": "field_58e22668c1010",
+                "label": "Biography Link",
+                "name": "biography",
+                "type": "page_link",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "director_bio"
+                ],
+                "taxonomy": [],
+                "allow_null": 0,
+                "allow_archives": 1,
+                "multiple": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "director"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_58e21ad4e4627",
+        "title": "Video",
+        "fields": [
+            {
+                "key": "field_58e21add3cbf3",
+                "label": "Video from YouTube",
+                "name": "video_from_youtube",
+                "type": "oembed",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "width": "",
+                "height": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "video"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]
